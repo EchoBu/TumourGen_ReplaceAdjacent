@@ -1,0 +1,327 @@
+﻿  stdafx.cpp
+d:\microsoft visual studio\vs2015\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\microsoft visual studio\vs2015\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  xUtilMfc.cpp
+  TextFileDataStream.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\textfiledatastream.cpp(24): warning C4244: “=”: 从“std::streamoff”转换到“unsigned int”，可能丢失数据
+  sphere.cpp
+  solver.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\polar_svd3x3.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\polar_svd3x3.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_preamble.hpp(73): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(61): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(67): note: 参见对正在编译的函数 模板 实例化“void igl::svd3x3<float>(const Eigen::Matrix<float,3,3,0,3,3> &,Eigen::Matrix<float,3,3,0,3,3> &,Eigen::Matrix<float,3,1,0,3,1> &,Eigen::Matrix<float,3,3,0,3,3> &)”的引用
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(61): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(62): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(63): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(78): warning C4305: “=”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(79): warning C4305: “=”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(28): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(29): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(30): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(31): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(32): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(33): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(34): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(35): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(36): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+  ShaderLib.cpp
+  Parameters.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ablation.h(42): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+  ObjParser.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+  SimplifyObject.cpp
+  MainFrm.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ablation.h(42): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+  aMesh.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\clock.h(46): warning C4244: “=”: 从“LONGLONG”转换到“double”，可能丢失数据
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\mesh.h(54): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\mesh.h(73): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\astaropenset.h(78): warning C4018: “>=”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\astaropenset.h(82): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\astaropenset.h(84): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\edge_collapse_is_valid.cpp(65): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(540): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(766): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(798): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(803): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(821): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(826): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(853): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(858): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(876): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(881): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(924): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(966): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(968): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1027): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1117): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1178): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1205): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1249): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1256): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1265): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1325): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1369): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1396): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1460): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1599): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1623): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1657): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1721): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1722): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1723): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1750): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1794): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1810): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1812): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1863): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1872): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1874): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1890): warning C4305: “参数”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1929): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(1957): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2142): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2262): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2323): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2340): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2481): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2522): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2675): warning C4018: “>=”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2696): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2716): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2738): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2741): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2755): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2769): warning C4018: “>=”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2776): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2812): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2859): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(2865): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3021): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3026): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3041): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3057): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3186): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3208): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3225): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3244): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3271): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3296): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3313): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3316): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3320): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3343): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3362): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3379): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3390): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3416): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3432): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3446): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3469): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3484): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3513): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3543): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3619): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3654): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3655): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3656): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3683): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3690): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3703): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3750): warning C4305: “参数”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3754): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3764): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3784): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3785): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3795): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3802): warning C4018: “>=”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3818): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3893): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3894): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3895): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3973): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3974): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3977): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3978): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3984): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3994): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(3999): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4143): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4163): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4182): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4188): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4192): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4209): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.cpp(4215): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_rows.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_simplices.cpp(31): note: 参见对正在编译的函数 模板 实例化“void igl::unique_rows<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::DenseBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_edge_map.cpp(35): note: 参见对正在编译的函数 模板 实例化“void igl::unique_simplices<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\edge_flaps.cpp(55): note: 参见对正在编译的函数 模板 实例化“void igl::unique_edge_map<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,int>(const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,std::vector<iCathMesh::IntArray,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>,
+              _Ty=iCathMesh::IntArray
+          ]
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\sortrows.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_rows.cpp(27): note: 参见对正在编译的函数 模板 实例化“void igl::sortrows<Derived,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::DenseBase<Derived> &,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_simplices.cpp(31): note: 参见对正在编译的函数 模板 实例化“void igl::unique_rows<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::DenseBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\sortrows.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\parallel_for.h(133): warning C4018: “<”: 有符号/无符号不匹配
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\parallel_for.h(109): note: 参见对正在编译的函数 模板 实例化“bool igl::parallel_for<Index,igl::parallel_for::<lambda_8720a830b3b45bafe5a4d8a18f63f446>,igl::parallel_for::<lambda_340912dffecf0ca899c6a19b543c8656>,igl::parallel_for::<lambda_8720a830b3b45bafe5a4d8a18f63f446>>(const Index,const PreFunctionType &,const FunctionType &,const AccumFunctionType &,const std::size_t)”的引用
+          with
+          [
+              Index=int,
+              PreFunctionType=igl::parallel_for::<lambda_8720a830b3b45bafe5a4d8a18f63f446>,
+              FunctionType=igl::parallel_for::<lambda_340912dffecf0ca899c6a19b543c8656>,
+              AccumFunctionType=igl::parallel_for::<lambda_8720a830b3b45bafe5a4d8a18f63f446>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\sort.cpp(284): note: 参见对正在编译的函数 模板 实例化“bool igl::parallel_for<int,igl::sort3::<lambda_8a829d73664497db1490cca0a27872ca>>(const Index,const FunctionType &,const std::size_t)”的引用
+          with
+          [
+              Index=int,
+              FunctionType=igl::sort3::<lambda_8a829d73664497db1490cca0a27872ca>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\sort.cpp(39): note: 参见对正在编译的函数 模板 实例化“void igl::sort3<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\unique_simplices.cpp(28): note: 参见对正在编译的函数 模板 实例化“void igl::sort<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ]
+  CxIO.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(70): warning C4244: “初始化”: 从“std::streamoff”转换到“std::size_t”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(159): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(233): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(296): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(472): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(552): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(665): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(670): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(703): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(828): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(835): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(842): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(861): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\cxio.cpp(871): warning C4018: “<”: 有符号/无符号不匹配
+  aCameraController.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\acameracontroller.cpp(102): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\acameracontroller.cpp(143): warning C4305: “初始化”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\acameracontroller.cpp(152): warning C4305: “初始化”: 从“double”到“float”截断
+  glutils.cpp
+  GLShader.cpp
+  glcontext.cpp
+  energy.cpp
+  CxTriangles.cpp
+  CxPoints.cpp
+  CxLines.cpp
+  CxLine.cpp
+  正在生成代码...
+d:\microsoft visual studio\vs2015\vc\include\fstream(428): warning C4715: “std::basic_filebuf<char,std::char_traits<char> >::overflow”: 不是所有的控件路径都返回值
+d:\microsoft visual studio\vs2015\vc\include\fstream(533): warning C4715: “std::basic_filebuf<char,std::char_traits<char> >::uflow”: 不是所有的控件路径都返回值
+d:\microsoft visual studio\vs2015\vc\include\fstream(681): warning C4715: “std::basic_filebuf<char,std::char_traits<char> >::_Endwrite”: 不是所有的控件路径都返回值
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\simplifyobject.cpp(423): error C4716: “SimplifyObject::Load”: 必须返回一个值
+  正在编译...
+  CollisionSetting.cpp
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+  Collider.cpp
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+  aSceneRender.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+  Using OPCODE
+  Compiling on Windows...
+  Compiling with VC++...
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\opcode\ice\iceutils.h(207): warning C4005: “ARRAYSIZE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: 参见“ARRAYSIZE”的前一个定义
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenerender.cpp(123): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenerender.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+  aCamera.cpp
+  aSceneManager.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\amesh.h(139): warning C4018: “<”: 有符号/无符号不匹配
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\clock.h(46): warning C4244: “=”: 从“LONGLONG”转换到“double”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenemanager.cpp(174): warning C4305: “参数”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenemanager.cpp(429): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenemanager.cpp(430): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ascenemanager.cpp(431): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  arapsolver.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\polar_svd3x3.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\polar_svd3x3.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_preamble.hpp(73): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(61): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(67): note: 参见对正在编译的函数 模板 实例化“void igl::svd3x3<float>(const Eigen::Matrix<float,3,3,0,3,3> &,Eigen::Matrix<float,3,3,0,3,3> &,Eigen::Matrix<float,3,1,0,3,1> &,Eigen::Matrix<float,3,3,0,3,3> &)”的引用
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(61): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(62): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(63): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(78): warning C4305: “=”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\singular_value_decomposition_kernel_declarations.hpp(79): warning C4305: “=”: 从“double”到“float”截断
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(28): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(29): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(30): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(31): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(32): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(33): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(34): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(35): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\include\igl\svd3x3.cpp(36): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+  AblationView.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ablation.h(42): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\clock.h(46): warning C4244: “=”: 从“LONGLONG”转换到“double”，可能丢失数据
+  AblationDoc.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ablation.h(42): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+  Ablation.cpp
+e:\vs2015_projects\tumourgen_replaceadjacent_test12\ablation\ablation.h(42): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+  正在生成代码...

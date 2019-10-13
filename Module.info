@@ -1,0 +1,47 @@
+# Module Infomation For iCathLab Simulator
+
+
+@ ICATH_CIRCULATORY_ARTERY_HEAD
+ms data\\M_Skeleton_Skull_Spine6-C.vm
+mv data\\M_Circulatory_Arteries_Head2-C_hole_free.vm
+c 0.0 0.0 27.0 0.1 200.0 5.0
+
+@ ICATH_AORTA_HEART
+ms data\\Skelton_rib_spine_coxae2_c.vm
+mv data\\femoral_aorta_c_holefree.vm
+c 0.0 0.0 45.0 0.1 800.0 5.0
+
+@ ICATH_KNEE
+ms data\\Skeleton_Feet_right-C.vm
+mv data\\knee1L2-C.vm
+c 0.0 0.0 45.0 0.1 350.0 5.0
+
+@ ICATH_CAROTID_ARTERY
+ms data\\Spine_c.vm
+mv data\\carotid_artery_c_L2_hole_free.vm
+c 0.0 0.0 40.0 0.1 300.0 5.0
+
+@ ICATH_FEMORAL_ARTERY
+ms data\\skeleton_femur_c.vm
+mv data\\aorta_iliac_femoral_artery_c_L1_hole_free.vm
+c 0.0 0.0 40.0 0.1 300.0 5.0
+
+@ ICATH_ILIAC_ARTERY
+ms data\\skeleton_iliac_c.vm
+mv data\\aorta_iliac_artery_c_L2_hole_free.vm
+c 0.0 0.0 27.0 0.1 300.0 5.0
+
+@ ICATH_RENAL_ARTERY
+ms data\\skeleton_renal_c.vm
+mv data\\aorta_renal_artery_c_hole_free.vm
+c 0.0 0.0 35.0 0.1 200.0 5.0
+
+@ ICATH_FEMORAL_AORTA_HEAD
+ms data\\Skelton_spine_skull_c.vm
+mv data\\femoral_aorta_head2-c-hole-free.vm
+c 0.0 0.0 35.0 0.1 500.0 5.0
+
+@ ICATH_ABLATION
+ms data\\M_Skeleton_Skull_Spine6-C.vm
+mv data\\zhangxkPolyFromMax_Scaled.vm
+c 0.0 0.0 11.0 0.1 200.0 5.0

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ogl">
+      <UniqueIdentifier>{ed06b0fa-275d-46e0-8d2b-7514148187da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{526aff97-4214-4970-86b2-088bed245f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{9721c183-e73b-4ed5-8b1e-494a58633c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{e5564ffd-edde-48b7-a582-55c44daaa62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a691babc-4eaa-481f-bb02-4bb6af7a282c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arapsolver">
+      <UniqueIdentifier>{c69bb237-b819-45f2-9f78-3f451deadeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogl\Mesh">
+      <UniqueIdentifier>{0637e3c6-21c1-4795-bc45-0380510bb31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simplification">
+      <UniqueIdentifier>{b2cc8776-ca3b-4828-82eb-ee71fda2d1be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Ablation.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AblationDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Ablation.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Guidewire.info">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="Module.info">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="shader\TexMultisample.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\lines_vert.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\lines_frag.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\TexMultisample.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\points.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\points.frag">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ablation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AblationDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AblationView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glcontext.h">
+      <Filter>ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="aSceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aCamera.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aCameraController.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aEvent.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aSceneRender.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aMesh.h">
+      <Filter>ogl\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLib.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="glutils.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSetting.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="xUtilMfc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CxLine.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CxTriangles.h">
+      <Filter>ogl\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CxLines.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CxIO.h">
+      <Filter>ogl\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CxPoints.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="solver.h">
+      <Filter>arapsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="arapsolver.h">
+      <Filter>arapsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="energy.h">
+      <Filter>arapsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjParser.h">
+      <Filter>ogl\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFileDataStream.h">
+      <Filter>ogl\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplifyObject.h">
+      <Filter>Simplification</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPoint.h">
+      <Filter>Simplification</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ablation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AblationDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AblationView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glcontext.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="aSceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="aCamera.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="aCameraController.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="aSceneRender.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="aMesh.cpp">
+      <Filter>ogl\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLib.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="glutils.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSetting.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="xUtilMfc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CxLine.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CxTriangles.cpp">
+      <Filter>ogl\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CxLines.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CxIO.cpp">
+      <Filter>ogl\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CxPoints.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="solver.cpp">
+      <Filter>arapsolver</Filter>
+    </ClCompile>
+    <ClCompile Include="arapsolver.cpp">
+      <Filter>arapsolver</Filter>
+    </ClCompile>
+    <ClCompile Include="energy.cpp">
+      <Filter>arapsolver</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjParser.cpp">
+      <Filter>ogl\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileDataStream.cpp">
+      <Filter>ogl\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyObject.cpp">
+      <Filter>Simplification</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ablation.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04FB6E6D-C7D5-40F6-96F7-25DA79AE95C1}</ProjectGuid>
+    <RootNamespace>Ablation</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <ExecutablePath>$(SolutionDir)Bin\;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Include;$(SolutionDir)eigen3.7;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <ExecutablePath>$(SolutionDir)Bin\;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)eigen3.7;$(SolutionDir)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_XKEYCHECK_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_XKEYCHECK_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>Default</CompileAs>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib</AdditionalDependencies>
+      <StackReserveSize>1000000</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Guidewire.info" />
+    <None Include="Module.info" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\Ablation.ico" />
+    <None Include="res\Ablation.rc2" />
+    <None Include="res\AblationDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="shader\lines_frag.glsl" />
+    <None Include="shader\lines_vert.glsl" />
+    <None Include="shader\points.frag" />
+    <None Include="shader\points.vert" />
+    <None Include="shader\TexMultisample.frag" />
+    <None Include="shader\TexMultisample.vert" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ablation.h" />
+    <ClInclude Include="AblationDoc.h" />
+    <ClInclude Include="AblationView.h" />
+    <ClInclude Include="arapsolver.h" />
+    <ClInclude Include="aSceneManager.h" />
+    <ClInclude Include="aCamera.h" />
+    <ClInclude Include="aSceneRender.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="CollisionSetting.h" />
+    <ClInclude Include="CxLine.h" />
+    <ClInclude Include="CxLines.h" />
+    <ClInclude Include="CxPoints.h" />
+    <ClInclude Include="CxTriangles.h" />
+    <ClInclude Include="energy.h" />
+    <ClInclude Include="glcontext.h" />
+    <ClInclude Include="GLShader.h" />
+    <ClInclude Include="glutils.h" />
+    <ClInclude Include="aCameraController.h" />
+    <ClInclude Include="aEvent.h" />
+    <ClInclude Include="CxIO.h" />
+    <ClInclude Include="aMesh.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="SimplifyObject.h" />
+    <ClInclude Include="ObjParser.h" />
+    <ClInclude Include="Parameters.h" />
+    <ClInclude Include="MyPoint.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShaderLib.h" />
+    <ClInclude Include="Shaders.h" />
+    <ClInclude Include="solver.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextFileDataStream.h" />
+    <ClInclude Include="xUtilMfc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ablation.cpp" />
+    <ClCompile Include="AblationDoc.cpp" />
+    <ClCompile Include="AblationView.cpp" />
+    <ClCompile Include="arapsolver.cpp" />
+    <ClCompile Include="aSceneManager.cpp" />
+    <ClCompile Include="aCamera.cpp" />
+    <ClCompile Include="aSceneRender.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="CollisionSetting.cpp" />
+    <ClCompile Include="CxLine.cpp" />
+    <ClCompile Include="CxLines.cpp" />
+    <ClCompile Include="CxPoints.cpp" />
+    <ClCompile Include="CxTriangles.cpp" />
+    <ClCompile Include="energy.cpp" />
+    <ClCompile Include="glcontext.cpp" />
+    <ClCompile Include="GLShader.cpp" />
+    <ClCompile Include="glutils.cpp" />
+    <ClCompile Include="aCameraController.cpp" />
+    <ClCompile Include="CxIO.cpp" />
+    <ClCompile Include="aMesh.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="SimplifyObject.cpp" />
+    <ClCompile Include="ObjParser.cpp" />
+    <ClCompile Include="Parameters.cpp" />
+    <ClCompile Include="ShaderLib.cpp" />
+    <ClCompile Include="solver.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextFileDataStream.cpp" />
+    <ClCompile Include="xUtilMfc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ablation.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Ablation.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
